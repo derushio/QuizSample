@@ -90,6 +90,7 @@ Game = {
         this.startCount = function()
             countNum = 5
             this.countText.text = countNum
+            this.countText.isVisible = true
             this.onCountTimer = timer.performWithDelay(1000, onCount, 0)
         end
 
